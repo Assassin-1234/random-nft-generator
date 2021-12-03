@@ -1,0 +1,30 @@
+{
+  "name": "random-nft-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Assassin-1234/random-nft-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Assassin-1234/random-nft-generator/issues"
+  },
+  "homepage": "https://github.com/Assassin-1234/random-nft-generator#readme",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "g-i-s": "^2.1.6",
+    "google-image-query": "^1.0.3",
+    "google-image-search": "^0.1.0",
+    "google-images": "^2.1.0",
+    "jimp": "^0.16.1",
+    "pixelate": "^0.0.5",
+    "pixelator": "^0.0.1",
+    "request": "^2.88.2"
+  }
+}

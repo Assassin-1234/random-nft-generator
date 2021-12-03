@@ -1,0 +1,35 @@
+{
+	"CMD Boiler Plate": {
+		"scope": "javascript",
+		"prefix": "Cmd",
+		"body": [
+			"/* eslint-disable no-unused-vars */",
+			"const Discord = require('discord.js');",
+			"const config = require('../../../utils/config.json');",
+			"",
+			"module.exports.run = async (client, message, args, utils) => {",
+			"\t// code here$0",
+			"};",
+			"",
+			"module.exports.help = {",
+			"\taliases: ['aliases'],",
+			"\tname: 'name',",
+			"\tdescription: 'description',",
+			"\tusage: config.prefix + 'usage',",
+			"};",
+			"",
+			"module.exports.config = {",
+			"\targs: false,",
+			"\trestricted: false,",
+			"\tcategory: 'category',",
+			"\tdisable: false,",
+			"\tcooldown: 1000,",
+			"};",
+			"",
+			"module.exports.permissions = {",
+			"\tclient: [],",
+			"\tmember: [],",
+			"};"
+		],
+	}
+}
