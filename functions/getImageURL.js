@@ -25,7 +25,7 @@ async function logResults(error, results) {
 			jimp.read('nft.png', (err, nft) => {
 				if(err) return console.log(err);
 				nft
-					.pixelate(85)
+					.pixelate(Math.floor(Math.random() * (100 - 10 + 1) + 10))
 					.write('nft2.png');
 			});
 		});
