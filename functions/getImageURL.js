@@ -20,8 +20,7 @@ async function logResults(error, results) {
 
 			setTimeout(() => {
 				request(uri).pipe(fs.createWriteStream('nft.png'));
-			}, 5000);
-
+			}, 2000);
 			jimp.read('nft.png', (err, nft) => {
 				if(err) return console.log(err);
 				nft
